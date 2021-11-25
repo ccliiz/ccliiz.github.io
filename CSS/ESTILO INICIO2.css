@@ -1,0 +1,796 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (min-width: 1024px){
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: candara;
+	src: url("../Fonts/Candara_Bold.ttf");
+}
+@font-face{
+	font-family: calibri;
+	src: url("../Fonts/calibri-font-family/calibri-regular.ttf");
+}
+.logo{
+	width: 20%;
+}
+.boxx{
+	display: flex;
+	background-color: #a270c8;
+	height: 60px;
+	justify-content:space-around;
+}
+.boxx>div{
+	margin: auto 10px;
+	font-family: calibri;
+	font-size: 15pt;
+	color: #FFFFFF;
+}
+.boxx2{
+	background-image:url("../img/FRASE.jpg");
+	display: flex;
+	height: 600px;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	font-family: calibri;
+}
+.boxx3{
+	display: flex;
+	margin: 63px 197px;
+	justify-content: center;
+	align-items: center;
+}
+.boxx4{
+	background-color: #a270c8; 
+	display: flex;
+	height: auto;
+	align-items: center;
+	font-family: calibri;
+}
+.boxx4>div{
+	width: 250px;
+	justify-content: space-between;
+	margin: 30px auto;
+	color: #FFFFFF;
+}
+.texto{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+ 	text-align: left;
+  	color: white;
+	width: 550px;
+	margin: 70px 320px;
+	font-family: calibri;
+}
+h1{
+	font-size: 50pt;
+	font-family: candara;
+}
+h2{
+	font-size: 30pt;
+	color: #530b52;
+	font-family: candara;
+}
+h4{
+	font-family: calibri;
+	color: #FFFFFF;
+}
+p{
+	font-family: calibri;
+}
+.p1{
+	font-size: 16pt;
+	color: #0F0F0F;
+	font-family: calibri;
+}
+.p2{
+	font-size: 16pt;
+	font-family: calibri;
+}
+.retrato2{
+	width: 500px;
+	height: 500px;
+}
+body{
+	background-color: #e4d5ee;
+}
+.co{
+	width: 36px;
+	height: 28px;
+}
+.ig{
+	width: 28px;
+	height: 28px;
+}
+.be{
+	width: 29px;
+	height: 29px;
+}
+a:hover {
+  background-color: #fbd244;
+  color: black;
+	font-weight: bold;
+}
+a.active {
+  background-color: #c49ecf;
+}
+a {
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+}
+
+@media (max-width: 1024px){
+	*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: candara;
+	src: url("../Fonts/Candara_Bold.ttf");
+}
+@font-face{
+	font-family: calibri;
+	src: url("../Fonts/calibri-font-family/calibri-regular.ttf");
+}
+.logo{
+	width: 20%;
+}
+.boxx{
+	display: flex;
+	background-color: #a270c8;
+	height: 70px;
+	justify-content:space-around;
+}
+.boxx>div{
+	margin: auto 10px;
+	font-family: calibri;
+	font-size: 15pt;
+	color: #FFFFFF;
+}
+.boxx2{
+	background-image:url("../img/FRASE.jpg");
+	display: flex;
+	height: 600px;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	font-family: calibri;
+}
+.boxx3{
+	display: flex;
+	margin: 63px 197px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.boxx4{
+	background-color: #a270c8; 
+	display: flex;
+	height: auto;
+	align-items: center;
+	font-family: calibri;
+	padding: 25px;
+}
+.boxx4>div{
+	width: 250px;
+	justify-content: space-between;
+	margin: 30px auto;
+	color: #FFFFFF;
+}
+.texto{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+ 	text-align: left;
+  	color: white;
+	width: 550px;
+	margin: 70px 320px;
+	font-family: calibri;
+}
+h1{
+	font-size: 50pt;
+	font-family: candara;
+}
+h2{
+	font-size: 30pt;
+	color: #530b52;
+	font-family: candara;
+	text-align: center;
+	margin: 20px;
+}
+h4{
+	font-family: calibri;
+	color: #FFFFFF;
+}
+p{
+	font-family: calibri;
+}
+.p1{
+	font-size: 16pt;
+	color: #0F0F0F;
+	font-family: calibri;
+}
+.p2{
+	font-size: 16pt;
+	font-family: calibri;
+}
+.retrato2{
+	width: 500px;
+	height: 500px;
+}
+body{
+	background-color: #e4d5ee;
+}
+.co{
+	width: 36px;
+	height: 28px;
+}
+.ig{
+	width: 28px;
+	height: 28px;
+}
+.be{
+	width: 29px;
+	height: 29px;
+}
+a:hover {
+  background-color: #fbd244;
+  color: black;
+	font-weight: bold;
+}
+a.active {
+  background-color: #c49ecf;
+}
+a {
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+}
+
+@media (max-width: 640px) and (orientation:landscape){
+	*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: candara;
+	src: url("../Fonts/Candara_Bold.ttf");
+}
+@font-face{
+	font-family: calibri;
+	src: url("../Fonts/calibri-font-family/calibri-regular.ttf");
+}
+.logo{
+	width: 70%;
+}
+.boxx{
+	display: flex;
+	background-color: #a270c8;
+	height: 70px;
+	justify-content:space-around;
+}
+.boxx>div{
+	margin: auto 10px;
+	font-family: calibri;
+	font-size: 15pt;
+	color: #FFFFFF;
+}
+.boxx2{
+	background-image:url("../img/FRASE.jpg");
+	display: flex;
+	height: 600px;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	font-family: calibri;
+}
+.boxx3{
+	display: flex;
+	margin: 63px 197px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.boxx4{
+	background-color: #a270c8; 
+	display: flex;
+	height: auto;
+	align-items: center;
+	font-family: calibri;
+	padding: 25px;
+}
+.boxx4>div{
+	width: 250px;
+	justify-content: space-between;
+	margin: 30px auto;
+	color: #FFFFFF;
+}
+.texto{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+ 	text-align: left;
+  	color: white;
+	width: 550px;
+	margin: 70px 90px;
+	font-family: calibri;
+}
+h1{
+	font-size: 40pt;
+	font-family: candara;
+}
+h2{
+	font-size: 30pt;
+	color: #530b52;
+	font-family: candara;
+	text-align: center;
+	margin: 20px;
+}
+h4{
+	font-family: calibri;
+	color: #FFFFFF;
+}
+p{
+	font-family: calibri;
+}
+.p1{
+	font-size: 16pt;
+	color: #0F0F0F;
+	font-family: calibri;
+}
+.p2{
+	font-size: 16pt;
+	font-family: calibri;
+}
+.retrato2{
+	width: 400px;
+	height: 400px;
+}
+body{
+	background-color: #e4d5ee;
+}
+.co{
+	width: 36px;
+	height: 28px;
+}
+.ig{
+	width: 28px;
+	height: 28px;
+}
+.be{
+	width: 29px;
+	height: 29px;
+}
+a:hover {
+  background-color: #fbd244;
+  color: black;
+	font-weight: bold;
+}
+a.active {
+  background-color: #c49ecf;
+}
+a {
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+}
+
+@media (max-width: 768px){
+	*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: candara;
+	src: url("../Fonts/Candara_Bold.ttf");
+}
+@font-face{
+	font-family: calibri;
+	src: url("../Fonts/calibri-font-family/calibri-regular.ttf");
+}
+.logo{
+	width: 50%;
+}
+.boxx{
+	display: flex;
+	background-color: #a270c8;
+	height: 70px;
+	justify-content:space-around;
+}
+.boxx>div{
+	margin: auto 10px;
+	font-family: calibri;
+	font-size: 15pt;
+	color: #FFFFFF;
+}
+.boxx2{
+	background-image:url("../img/FRASE.jpg");
+	display: flex;
+	height: 600px;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	font-family: calibri;
+}
+.boxx3{
+	display: flex;
+	margin: 63px 197px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.boxx4{
+	background-color: #a270c8; 
+	display: flex;
+	height: auto;
+	align-items: center;
+	font-family: calibri;
+	padding: 25px;
+}
+.boxx4>div{
+	width: 250px;
+	justify-content: space-between;
+	margin: 30px auto;
+	color: #FFFFFF;
+}
+.texto{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+ 	text-align: left;
+  	color: white;
+	width: 550px;
+	margin: 70px 90px;
+	font-family: calibri;
+}
+h1{
+	font-size: 40pt;
+	font-family: candara;
+}
+h2{
+	font-size: 30pt;
+	color: #530b52;
+	font-family: candara;
+	text-align: center;
+	margin: 20px;
+}
+h4{
+	font-family: calibri;
+	color: #FFFFFF;
+}
+p{
+	font-family: calibri;
+}
+.p1{
+	font-size: 16pt;
+	color: #0F0F0F;
+	font-family: calibri;
+}
+.p2{
+	font-size: 16pt;
+	font-family: calibri;
+}
+.retrato2{
+	width: 400px;
+	height: 400px;
+}
+body{
+	background-color: #e4d5ee;
+}
+.co{
+	width: 36px;
+	height: 28px;
+}
+.ig{
+	width: 28px;
+	height: 28px;
+}
+.be{
+	width: 29px;
+	height: 29px;
+}
+a:hover {
+  background-color: #fbd244;
+  color: black;
+	font-weight: bold;
+}
+a.active {
+  background-color: #c49ecf;
+}
+a {
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+}
+@media (max-width: 360px){
+	*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: candara;
+	src: url("../Fonts/Candara_Bold.ttf");
+}
+@font-face{
+	font-family: calibri;
+	src: url("../Fonts/calibri-font-family/calibri-regular.ttf");
+}
+.logo{
+	width: 0%;
+}
+.boxx{
+	display: flex;
+	background-color: #a270c8;
+	height: 80px;
+	justify-content:space-around;
+	width: auto;
+}
+.boxx>div{
+	margin: auto 1px;
+	font-family: calibri;
+	font-size: 11pt;
+	color: #FFFFFF;
+}
+.boxx2{
+	background-image:url("../img/FRASE.jpg");
+	display: flex;
+	height: 350px;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size:cover;
+	font-family: calibri;
+}
+.boxx3{
+	display: flex;
+	margin: 63px 60px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.boxx4{
+	background-color: #a270c8; 
+	display: flex;
+	height: auto;
+	align-items: center;
+	font-family: calibri;
+	padding: 25px;
+	flex-direction: column;
+}
+.boxx4>div{
+	width: 250px;
+	justify-content: space-between;
+	margin: 20px auto;
+	color: #FFFFFF;
+	font-size: 10pt;
+}
+.texto{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+ 	text-align: left;
+  	color: white;
+	width: 550px;
+	margin: 30px 30px;
+	font-family: calibri;
+}
+h1{
+	font-size: 25pt;
+	font-family: candara;
+}
+h2{
+	font-size: 20pt;
+	color: #530b52;
+	font-family: candara;
+	text-align: center;
+	margin: 20px;
+}
+h4{
+	font-family: calibri;
+	color: #FFFFFF;
+}
+p{
+	font-family: calibri;
+	font-size: 10pt;
+}
+.p1{
+	font-size: 12pt;
+	color: #0F0F0F;
+	font-family: calibri;
+}
+.p2{
+	font-size: 12pt;
+	font-family: calibri;
+}
+.retrato2{
+	width: 250px;
+	height: 250px;
+}
+body{
+	background-color: #e4d5ee;
+}
+.co{
+	width: 36px;
+	height: 28px;
+}
+.ig{
+	width: 28px;
+	height: 28px;
+}
+.be{
+	width: 29px;
+	height: 29px;
+}
+a:hover {
+  background-color: #fbd244;
+  color: black;
+	font-weight: bold;
+}
+a.active {
+  background-color: #c49ecf;
+}
+a {
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 50px;
+	height: 50px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+}

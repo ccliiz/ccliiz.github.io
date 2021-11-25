@@ -1,0 +1,1139 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (min-width: 1024px){
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: candara;
+	src: url("../Fonts/Candara_Bold.ttf");
+}
+@font-face{
+	font-family: calibri;
+	src: url("../Fonts/calibri-font-family/calibri-regular.ttf");
+}
+.logo{
+	width: 20%;
+}
+.box1{
+	display: flex;
+	background-color: #c49ecf;
+	height: 60px;
+	justify-content:space-around;
+}
+.box1>div{
+	margin: auto;
+	color: #530b52;
+}
+.boxx{
+	display: flex;
+	background-color: #e4d5ee;
+	height: 60px;
+	justify-content:space-around;
+}
+.boxx>div{
+	margin: auto 10px;
+	font-family: calibri;
+	font-size: 15pt;
+	color: #530b52;
+}
+.box3{
+	display: flex;
+	justify-content:space-around;
+	font-family: calibri;
+	font-weight: bold;
+	color: #530b52;
+	font-size: 18pt;
+	margin: 80px auto;
+}
+.co{
+	width: 36px;
+	height: 28px;
+}
+.ig{
+	width: 28px;
+	height: 28px;
+}
+.be{
+	width: 29px;
+	height: 29px;
+}
+.boxx4{
+	background-color: #a270c8; 
+	display: flex;
+	height: auto;
+	align-items: center;
+	font-family: calibri;
+}
+.boxx4>div{
+	width: 250px;
+	justify-content: space-between;
+	margin: 30px auto;
+	color: #FFFFFF;
+}
+.boxfor{ 
+	display: flex;
+	height: auto;
+	font-family: calibri;
+	flex-direction: column;
+}
+.boxform{
+	display: flex;
+	height: auto;
+	font-family: calibri;
+	flex-direction: row;
+}
+.boxs{
+	display: flex;
+	height: auto;
+	flex-direction: row;
+}
+.boxall{
+	display: flex;
+	height: auto;
+	flex-direction: row;
+	align-content: space-around;
+	align-items:center;
+	justify-content:center;
+	font-family: calibri;
+	color: #530b52;
+	margin: auto 100px;
+}
+body{
+	background-color: #e4d5ee;
+}
+h2{
+	font-family: calibri;
+}
+a:hover {
+  background-color: #fbd244;
+  color: black;
+	font-weight: bold;
+}
+a.active {
+  background-color: #c49ecf;
+}
+a {
+  float: left;
+  display: block;
+  color:  #530b52;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.button {
+  background-color: #c48dcd;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  margin: 4px 4px;
+cursor: pointer;
+}
+.button5 {
+	border-radius: 50%;
+}
+.button:hover{
+	background-color: #fbd244;
+}
+.button:hover{
+	background-color: #fbd244;
+}
+.co2{
+	width: 26px;
+	height: 21px;
+}
+.ig2{
+	width: 21px;
+	height: 21px;
+}
+.be2{
+	width: 20px;
+	height: 20px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #530b52;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #c49ecf;
+	color: #530b52;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+width: 700px;
+	display: flex;
+	font-family: calibri;
+	justify-content: flex-end;
+}
+.A{
+	display: flex;
+	height: auto;
+	flex-direction: column;
+	justify-content:flex-start;
+	font-family: calibri;
+	color: #530b52;
+	margin: auto 100px;
+}	
+}
+@media (max-width: 1024px){
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: candara;
+	src: url("../Fonts/Candara_Bold.ttf");
+}
+@font-face{
+	font-family: calibri;
+	src: url("../Fonts/calibri-font-family/calibri-regular.ttf");
+}
+.logo{
+	width: 20%;
+}
+.box1{
+	display: flex;
+	background-color: #c49ecf;
+	height: 60px;
+	justify-content:space-around;
+}
+.box1>div{
+	margin: auto;
+	color: #530b52;
+}
+.boxx{
+	display: flex;
+	background-color: #e4d5ee;
+	height: 60px;
+	justify-content:space-around;
+}
+.boxx>div{
+	margin: auto 10px;
+	font-family: calibri;
+	font-size: 15pt;
+	color: #530b52;
+}
+.box3{
+	display: flex;
+	justify-content:space-around;
+	font-family: calibri;
+	font-weight: bold;
+	color: #530b52;
+	font-size: 18pt;
+	margin: 80px auto;
+}
+.co{
+	width: 36px;
+	height: 28px;
+}
+.ig{
+	width: 28px;
+	height: 28px;
+}
+.be{
+	width: 29px;
+	height: 29px;
+}
+.boxx4{
+	background-color: #a270c8; 
+	display: flex;
+	height: auto;
+	align-items: center;
+	font-family: calibri;
+	padding: 25px;
+}
+.boxx4>div{
+	width: 250px;
+	justify-content: space-between;
+	margin: 30px auto;
+	color: #FFFFFF;
+}
+.boxfor{ 
+	display: flex;
+	height: auto;
+	font-family: calibri;
+	flex-direction: column;
+}
+.boxform{
+	display: flex;
+	height: auto;
+	font-family: calibri;
+	flex-direction: row;
+}
+.boxs{
+	display: flex;
+	height: auto;
+	flex-direction: row;
+}
+.boxall{
+	display: flex;
+	height: auto;
+	flex-direction: row;
+	align-content: space-around;
+	align-items:center;
+	justify-content:center;
+	font-family: calibri;
+	color: #530b52;
+	margin: auto 100px;
+}
+body{
+	background-color: #e4d5ee;
+}
+h2{
+	font-family: calibri;
+}
+a:hover {
+  background-color: #fbd244;
+  color: black;
+	font-weight: bold;
+}
+a.active {
+  background-color: #c49ecf;
+}
+a {
+  float: left;
+  display: block;
+  color:  #530b52;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.button {
+  background-color: #c48dcd;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  margin: 4px 4px;
+cursor: pointer;
+}
+.button5 {
+	border-radius: 50%;
+}
+.button:hover{
+	background-color: #fbd244;
+}
+.button:hover{
+	background-color: #fbd244;
+}
+.co2{
+	width: 26px;
+	height: 21px;
+}
+.ig2{
+	width: 21px;
+	height: 21px;
+}
+.be2{
+	width: 20px;
+	height: 20px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #530b52;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #c49ecf;
+	color: #530b52;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+width: 500px;
+	display: flex;
+	font-family: calibri;
+	justify-content: flex-end;
+}
+.A{
+	display: flex;
+	height: auto;
+	flex-direction: column;
+	justify-content:flex-start;
+	font-family: calibri;
+	color: #530b52;
+	margin: auto 100px;
+}
+}
+@media (max-width: 768px){
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: candara;
+	src: url("../Fonts/Candara_Bold.ttf");
+}
+@font-face{
+	font-family: calibri;
+	src: url("../Fonts/calibri-font-family/calibri-regular.ttf");
+}
+.logo{
+	width: 50%;
+}
+.box1{
+	display: flex;
+	background-color: #c49ecf;
+	height: 60px;
+	justify-content:space-around;
+}
+.box1>div{
+	margin: auto;
+	color: #530b52;
+}
+.boxx{
+	display: flex;
+	background-color: #e4d5ee;
+	height: 60px;
+	justify-content:space-around;
+}
+.boxx>div{
+	margin: auto 10px;
+	font-family: calibri;
+	font-size: 15pt;
+	color: #530b52;
+}
+.box3{
+	display: flex;
+	justify-content:space-around;
+	font-family: calibri;
+	font-weight: bold;
+	color: #530b52;
+	font-size: 18pt;
+	margin: 80px auto;
+}
+.co{
+	width: 36px;
+	height: 28px;
+}
+.ig{
+	width: 28px;
+	height: 28px;
+}
+.be{
+	width: 29px;
+	height: 29px;
+}
+.boxx4{
+	background-color: #a270c8; 
+	display: flex;
+	height: auto;
+	align-items: center;
+	font-family: calibri;
+	padding: 25px;
+}
+.boxx4>div{
+	width: 250px;
+	justify-content: space-between;
+	margin: 30px auto;
+	color: #FFFFFF;
+}
+.boxfor{ 
+	display: flex;
+	height: auto;
+	font-family: calibri;
+	flex-direction: column;
+}
+.boxform{
+	display: flex;
+	height: auto;
+	font-family: calibri;
+	flex-direction: row;
+}
+.boxs{
+	display: flex;
+	height: auto;
+	flex-direction: row;
+}
+.boxall{
+	display: flex;
+	height: auto;
+	flex-direction: row;
+	align-content: space-around;
+	align-items:center;
+	justify-content:center;
+	font-family: calibri;
+	color: #530b52;
+	margin: auto 100px;
+}
+body{
+	background-color: #e4d5ee;
+}
+h2{
+	font-family: calibri;
+}
+a:hover {
+  background-color: #fbd244;
+  color: black;
+	font-weight: bold;
+}
+a.active {
+  background-color: #c49ecf;
+}
+a {
+  float: left;
+  display: block;
+  color:  #530b52;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.button {
+  background-color: #c48dcd;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  margin: 4px 4px;
+cursor: pointer;
+}
+.button5 {
+	border-radius: 50%;
+}
+.button:hover{
+	background-color: #fbd244;
+}
+.button:hover{
+	background-color: #fbd244;
+}
+.co2{
+	width: 26px;
+	height: 21px;
+}
+.ig2{
+	width: 21px;
+	height: 21px;
+}
+.be2{
+	width: 20px;
+	height: 20px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #530b52;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #c49ecf;
+	color: #530b52;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+width: 320px;
+	display: flex;
+	font-family: calibri;
+	justify-content: flex-end;
+}
+.A{
+	display: flex;
+	height: auto;
+	flex-direction: column;
+	justify-content:flex-start;
+	font-family: calibri;
+	color: #530b52;
+	margin: auto 100px;
+}
+}
+@media (max-width: 640px) and (orientation:landscape){
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: candara;
+	src: url("../Fonts/Candara_Bold.ttf");
+}
+@font-face{
+	font-family: calibri;
+	src: url("../Fonts/calibri-font-family/calibri-regular.ttf");
+}
+.logo{
+	width: 70%;
+}
+.box1{
+	display: flex;
+	background-color: #c49ecf;
+	height: 60px;
+	justify-content:space-around;
+}
+.box1>div{
+	margin: auto;
+	color: #530b52;
+}
+.boxx{
+	display: flex;
+	background-color: #e4d5ee;
+	height: 60px;
+	justify-content:space-around;
+}
+.boxx>div{
+	margin: auto 10px;
+	font-family: calibri;
+	font-size: 15pt;
+	color: #530b52;
+}
+.box3{
+	display: flex;
+	justify-content:space-around;
+	font-family: calibri;
+	font-weight: bold;
+	color: #530b52;
+	font-size: 18pt;
+	margin: 80px auto;
+}
+.co{
+	width: 36px;
+	height: 28px;
+}
+.ig{
+	width: 28px;
+	height: 28px;
+}
+.be{
+	width: 29px;
+	height: 29px;
+}
+.boxx4{
+	background-color: #a270c8; 
+	display: flex;
+	height: auto;
+	align-items: center;
+	font-family: calibri;
+	padding: 25px;
+}
+.boxx4>div{
+	width: 250px;
+	justify-content: space-between;
+	margin: 30px auto;
+	color: #FFFFFF;
+}
+.boxfor{ 
+	display: flex;
+	height: auto;
+	font-family: calibri;
+	flex-direction: column;
+}
+.boxform{
+	display: flex;
+	height: auto;
+	font-family: calibri;
+	flex-direction: row;
+}
+.boxs{
+	display: flex;
+	height: auto;
+	flex-direction: row;
+}
+.boxall{
+	display: flex;
+	height: auto;
+	flex-direction: column;
+	align-content: space-around;
+	align-items:center;
+	justify-content:center;
+	font-family: calibri;
+	color: #530b52;
+	margin: auto 100px;
+}
+body{
+	background-color: #e4d5ee;
+}
+h2{
+	font-family: calibri;
+}
+a:hover {
+  background-color: #fbd244;
+  color: black;
+	font-weight: bold;
+}
+a.active {
+  background-color: #c49ecf;
+}
+a {
+  float: left;
+  display: block;
+  color:  #530b52;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.button {
+  background-color: #c48dcd;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  margin: 4px 4px;
+cursor: pointer;
+}
+.button5 {
+	border-radius: 50%;
+}
+.button:hover{
+	background-color: #fbd244;
+}
+.button:hover{
+	background-color: #fbd244;
+}
+.co2{
+	width: 26px;
+	height: 21px;
+}
+.ig2{
+	width: 21px;
+	height: 21px;
+}
+.be2{
+	width: 20px;
+	height: 20px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #530b52;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #c49ecf;
+	color: #530b52;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+width: 500px;
+	display: flex;
+	font-family: calibri;
+	justify-content: flex-end;
+}
+.A{
+	display: flex;
+	height: auto;
+	flex-direction: column;
+	justify-content:flex-start;
+	font-family: calibri;
+	color: #530b52;
+	margin: auto 100px;
+}
+}
+@media (max-width: 360px){
+	*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: candara;
+	src: url("../Fonts/Candara_Bold.ttf");
+}
+@font-face{
+	font-family: calibri;
+	src: url("../Fonts/calibri-font-family/calibri-regular.ttf");
+}
+.logo{
+	width: 0%;
+}
+.box1{
+	display: flex;
+	background-color: #c49ecf;
+	height: 60px;
+	justify-content:space-around;
+}
+.box1>div{
+	margin: auto;
+	color: #530b52;
+}
+.boxx{
+	display: flex;
+	background-color: #e4d5ee;
+	height: 60px;
+	justify-content:space-around;
+}
+.boxx>div{
+	margin: auto 1px;
+	font-family: calibri;
+	font-size: 11pt;
+	color: #530b52;
+}
+.box3{
+	display: flex;
+	justify-content:space-around;
+	font-family: calibri;
+	font-weight: bold;
+	color: #530b52;
+	font-size: 18pt;
+	margin: 80px auto;
+}
+.co{
+	width: 36px;
+	height: 28px;
+}
+.ig{
+	width: 28px;
+	height: 28px;
+}
+.be{
+	width: 29px;
+	height: 29px;
+}
+.boxx4{
+	background-color: #a270c8; 
+	display: flex;
+	height: auto;
+	align-items: center;
+	font-family: calibri;
+	padding: 25px;
+	flex-direction: column;
+}
+.boxx4>div{
+	width: 250px;
+	justify-content: space-between;
+	margin: 20px auto;
+	color: #FFFFFF;
+	font-size: 10pt;
+}
+.boxfor{ 
+	display: flex;
+	height: auto;
+	font-family: calibri;
+	flex-direction: column;
+}
+.boxform{
+	display: flex;
+	height: auto;
+	font-family: calibri;
+	flex-direction: row;
+}
+.boxs{
+	display: flex;
+	height: auto;
+	flex-direction: row;
+}
+.boxall{
+	display: flex;
+	height: auto;
+	flex-direction: column;
+	align-content: space-around;
+	align-items:center;
+	justify-content:center;
+	font-family: calibri;
+	color: #530b52;
+	margin: auto 100px;
+}
+body{
+	background-color: #e4d5ee;
+}
+h2{
+	font-family: calibri;
+}
+a:hover {
+  background-color: #fbd244;
+  color: black;
+	font-weight: bold;
+}
+a.active {
+  background-color: #c49ecf;
+}
+a {
+  float: left;
+  display: block;
+  color:  #530b52;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 50px;
+	height: 50px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.button {
+  background-color: #c48dcd;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  margin: 4px 4px;
+cursor: pointer;
+}
+.button5 {
+	border-radius: 50%;
+}
+.button:hover{
+	background-color: #fbd244;
+}
+.button:hover{
+	background-color: #fbd244;
+}
+.co2{
+	width: 26px;
+	height: 21px;
+}
+.ig2{
+	width: 21px;
+	height: 21px;
+}
+.be2{
+	width: 20px;
+	height: 20px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #530b52;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #c49ecf;
+	color: #530b52;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+width: 300px;
+	display: flex;
+	font-family: calibri;
+	justify-content: flex-end;
+}
+.A{
+	display: flex;
+	height: auto;
+	flex-direction: column;
+	justify-content:flex-start;
+	font-family: calibri;
+	color: #530b52;
+	margin: auto 100px;
+}
+}

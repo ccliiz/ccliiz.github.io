@@ -1,0 +1,1260 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (min-width: 1024px){
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: candara;
+	src: url("../Fonts/Candara_Bold.ttf");
+}
+@font-face{
+	font-family: calibri;
+	src: url("../Fonts/calibri-font-family/calibri-regular.ttf");
+}
+.logo{
+	width: 20%;
+}
+.boxx{
+	display: flex;
+	background-color: #e4d5ee;
+	height: 60px;
+	justify-content:space-around;
+}
+.box1{
+	display: flex;
+	background-color: #c49ecf;
+	height: 60px;
+	justify-content:space-around;
+}
+.box2{
+	display: flex;
+	background-color: #c49ecf;
+	height: 100px;
+	justify-content:space-around;
+	align-items: center; 
+	font-size: 15pt;
+}
+.box3{
+	display: flex;
+	justify-content:space-around;
+	font-family: calibri;
+	color: #530b52;
+	font-size: 18pt;
+	margin: 75px auto;
+}
+.boxx4{
+	background-color: #a270c8; 
+	display: flex;
+	height: auto;
+	align-items: center;
+	font-family: calibri;
+}
+.boxx4>div{
+	width: 250px;
+	justify-content: space-between;
+	margin: 30px auto;
+	color: #FFFFFF;
+}
+.box1>div{
+	margin: auto;
+	color: #530b52;
+}
+.boxx>div{
+	margin: auto 10px;
+	font-family: calibri;
+	font-size: 15pt;
+	color: #530b52;
+}
+.box6{
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	margin: 20px;
+	font-family: calibri;
+	text-align: center;
+}
+.box8{
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	font-family: calibri;
+	text-align: center;
+}
+.box10{
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	font-family: calibri;
+	height: 400px;
+	font-size: 16pt;
+}
+.box11{
+	display: flex;
+	justify-content: space-around;
+	font-family: calibri;
+	width: 700px;
+}
+.vacio{
+	display: flex;
+	height: 100px;
+}
+.co{
+	width: 36px;
+	height: 28px;
+}
+.ig{
+	width: 28px;
+	height: 28px;
+}
+.be{
+	width: 29px;
+	height: 29px;
+}
+h2{
+	font-family: calibri;
+}
+body{
+	background-color: #e4d5ee;
+}
+a:hover {
+  background-color: #fbd244;
+  color: black;
+	font-weight: bold;
+}
+a.active {
+  background-color: #c49ecf;
+}
+a {
+  float: left;
+  display: block;
+  color:  #530b52;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.parallax {
+  /* The image used */
+  background-image: url("../img/Bolt-color-entrega.jpg");
+
+  /* Set a specific height */
+  min-height: 900px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("../img/Bolt final playera.jpg");
+
+  /* Set a specific height */
+  min-height: 900px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+  .parallax2 {
+    background-attachment: scroll;
+  }
+}
+}
+@media (max-width: 1024px){
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: candara;
+	src: url("../Fonts/Candara_Bold.ttf");
+}
+@font-face{
+	font-family: calibri;
+	src: url("../Fonts/calibri-font-family/calibri-regular.ttf");
+}
+.logo{
+	width: 20%;
+}
+.boxx{
+	display: flex;
+	background-color: #e4d5ee;
+	height: 60px;
+	justify-content:space-around;
+}
+.box1{
+	display: flex;
+	background-color: #c49ecf;
+	height: 60px;
+	justify-content:space-around;
+}
+.box2{
+	display: flex;
+	background-color: #c49ecf;
+	height: 100px;
+	justify-content:space-around;
+	align-items: center; 
+	font-size: 15pt;
+}
+.box3{
+	display: flex;
+	justify-content:space-around;
+	font-family: calibri;
+	color: #530b52;
+	font-size: 18pt;
+	margin: 75px auto;
+}
+.boxx4{
+	background-color: #a270c8; 
+	display: flex;
+	height: auto;
+	align-items: center;
+	font-family: calibri;
+	padding: 25px;
+}
+.boxx4>div{
+	width: 250px;
+	justify-content: space-between;
+	margin: 30px auto;
+	color: #FFFFFF;
+}
+.box1>div{
+	margin: auto;
+	color: #530b52;
+}
+.boxx>div{
+	margin: auto 10px;
+	font-family: calibri;
+	font-size: 15pt;
+	color: #530b52;
+}
+.box6{
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	margin: 20px;
+	font-family: calibri;
+	text-align: center;
+}
+.box8{
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	font-family: calibri;
+	text-align: center;
+}
+.box10{
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	font-family: calibri;
+	height: 400px;
+	font-size: 16pt;
+}
+.box11{
+	display: flex;
+	justify-content: space-around;
+	font-family: calibri;
+	width: 700px;
+}
+.vacio{
+	display: flex;
+	height: 100px;
+}
+.co{
+	width: 36px;
+	height: 28px;
+}
+.ig{
+	width: 28px;
+	height: 28px;
+}
+.be{
+	width: 29px;
+	height: 29px;
+}
+h2{
+	font-family: calibri;
+}
+body{
+	background-color: #e4d5ee;
+}
+a:hover {
+  background-color: #fbd244;
+  color: black;
+	font-weight: bold;
+}
+a.active {
+  background-color: #c49ecf;
+}
+a {
+  float: left;
+  display: block;
+  color:  #530b52;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.parallax {
+  /* The image used */
+  background-image: url("../img/Bolt-color-entrega.jpg");
+
+  /* Set a specific height */
+  min-height: 900px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("../img/Bolt final playera.jpg");
+
+  /* Set a specific height */
+  min-height: 900px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+  .parallax2 {
+    background-attachment: scroll;
+  }
+}
+}
+@media (max-width: 768px){
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: candara;
+	src: url("../Fonts/Candara_Bold.ttf");
+}
+@font-face{
+	font-family: calibri;
+	src: url("../Fonts/calibri-font-family/calibri-regular.ttf");
+}
+.logo{
+	width: 50%;
+}
+.boxx{
+	display: flex;
+	background-color: #e4d5ee;
+	height: 60px;
+	justify-content:space-around;
+}
+.box1{
+	display: flex;
+	background-color: #c49ecf;
+	height: 60px;
+	justify-content:space-around;
+}
+.box2{
+	display: flex;
+	background-color: #c49ecf;
+	height: 100px;
+	justify-content:space-around;
+	align-items: center; 
+	font-size: 15pt;
+}
+.box3{
+	display: flex;
+	justify-content:space-around;
+	font-family: calibri;
+	color: #530b52;
+	font-size: 18pt;
+	margin: 75px auto;
+}
+.boxx4{
+	background-color: #a270c8; 
+	display: flex;
+	height: auto;
+	align-items: center;
+	font-family: calibri;
+	padding: 25px;
+}
+.boxx4>div{
+	width: 250px;
+	justify-content: space-between;
+	margin: 30px auto;
+	color: #FFFFFF;
+}
+.box1>div{
+	margin: auto;
+	color: #530b52;
+}
+.boxx>div{
+	margin: auto 10px;
+	font-family: calibri;
+	font-size: 15pt;
+	color: #530b52;
+}
+.box6{
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	margin: 20px;
+	font-family: calibri;
+	text-align: center;
+}
+.box8{
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	font-family: calibri;
+	text-align: center;
+}
+.box10{
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	font-family: calibri;
+	height: 400px;
+	font-size: 16pt;
+}
+.box11{
+	display: flex;
+	justify-content: space-around;
+	font-family: calibri;
+	width: 700px;
+}
+.vacio{
+	display: flex;
+	height: 100px;
+}
+.co{
+	width: 36px;
+	height: 28px;
+}
+.ig{
+	width: 28px;
+	height: 28px;
+}
+.be{
+	width: 29px;
+	height: 29px;
+}
+h2{
+	font-family: calibri;
+}
+body{
+	background-color: #e4d5ee;
+}
+a:hover {
+  background-color: #fbd244;
+  color: black;
+	font-weight: bold;
+}
+a.active {
+  background-color: #c49ecf;
+}
+a {
+  float: left;
+  display: block;
+  color:  #530b52;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.parallax {
+  /* The image used */
+  background-image: url("../img/Bolt-color-entrega.jpg");
+
+  /* Set a specific height */
+  min-height: 900px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("../img/Bolt final playera.jpg");
+
+  /* Set a specific height */
+  min-height: 900px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+  .parallax2 {
+    background-attachment: scroll;
+  }
+}
+}
+@media (max-width: 640px) and (orientation:landscape){
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: candara;
+	src: url("../Fonts/Candara_Bold.ttf");
+}
+@font-face{
+	font-family: calibri;
+	src: url("../Fonts/calibri-font-family/calibri-regular.ttf");
+}
+.logo{
+	width: 70%;
+}
+.boxx{
+	display: flex;
+	background-color: #e4d5ee;
+	height: 60px;
+	justify-content:space-around;
+}
+.box1{
+	display: flex;
+	background-color: #c49ecf;
+	height: 60px;
+	justify-content:space-around;
+}
+.box2{
+	display: flex;
+	background-color: #c49ecf;
+	height: 100px;
+	justify-content:space-around;
+	align-items: center; 
+	font-size: 15pt;
+}
+.box3{
+	display: flex;
+	justify-content:space-around;
+	font-family: calibri;
+	color: #530b52;
+	font-size: 18pt;
+	margin: 75px auto;
+}
+.boxx4{
+	background-color: #a270c8; 
+	display: flex;
+	height: auto;
+	align-items: center;
+	font-family: calibri;
+	padding: 25px;
+}
+.boxx4>div{
+	width: 250px;
+	justify-content: space-between;
+	margin: 30px auto;
+	color: #FFFFFF;
+}
+.box1>div{
+	margin: auto;
+	color: #530b52;
+}
+.boxx>div{
+	margin: auto 10px;
+	font-family: calibri;
+	font-size: 15pt;
+	color: #530b52;
+}
+.box6{
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	margin: 20px;
+	font-family: calibri;
+	text-align: center;
+}
+.box8{
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	font-family: calibri;
+	text-align: center;
+}
+.box10{
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	font-family: calibri;
+	height: 400px;
+	font-size: 16pt;
+}
+.box11{
+	display: flex;
+	justify-content: space-around;
+	font-family: calibri;
+	width: 500px;
+}
+.vacio{
+	display: flex;
+	height: 100px;
+}
+.co{
+	width: 36px;
+	height: 28px;
+}
+.ig{
+	width: 28px;
+	height: 28px;
+}
+.be{
+	width: 29px;
+	height: 29px;
+}
+h2{
+	font-family: calibri;
+}
+body{
+	background-color: #e4d5ee;
+}
+a:hover {
+  background-color: #fbd244;
+  color: black;
+	font-weight: bold;
+}
+a.active {
+  background-color: #c49ecf;
+}
+a {
+  float: left;
+  display: block;
+  color:  #530b52;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.parallax {
+  /* The image used */
+  background-image: url("../img/Bolt-color-entrega.jpg");
+
+  /* Set a specific height */
+  min-height: 900px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("../img/Bolt final playera.jpg");
+
+  /* Set a specific height */
+  min-height: 900px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+  .parallax2 {
+    background-attachment: scroll;
+  }
+}
+}
+@media (max-width: 360px){
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: candara;
+	src: url("../Fonts/Candara_Bold.ttf");
+}
+@font-face{
+	font-family: calibri;
+	src: url("../Fonts/calibri-font-family/calibri-regular.ttf");
+}
+.logo{
+	width: 0%;
+}
+.boxx{
+	display: flex;
+	background-color: #e4d5ee;
+	height: 60px;
+	justify-content:space-around;
+}
+.box1{
+	display: flex;
+	background-color: #c49ecf;
+	height: 60px;
+	justify-content:space-around;
+}
+.box2{
+	display: flex;
+	background-color: #c49ecf;
+	height: 100px;
+	justify-content:space-around;
+	align-items: center; 
+	font-size: 12pt;
+}
+.box3{
+	display: flex;
+	justify-content:space-around;
+	font-family: calibri;
+	color: #530b52;
+	font-size: 16pt;
+	margin: 75px auto;
+}
+.boxx4{
+	background-color: #a270c8; 
+	display: flex;
+	height: auto;
+	align-items: center;
+	font-family: calibri;
+	padding: 25px;
+	flex-direction: column;
+}
+.boxx4>div{
+	width: 250px;
+	justify-content: space-between;
+	margin: 20px auto;
+	color: #FFFFFF;
+	font-size: 10pt;
+}
+.box1>div{
+	margin: auto;
+	color: #530b52;
+	font-size: 10pt;
+}
+.boxx>div{
+	margin: auto 1px;
+	font-family: calibri;
+	color: #530b52;
+	font-size: 11pt;
+}
+.box6{
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	margin: 20px;
+	font-family: calibri;
+	text-align: center;
+}
+.box8{
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	font-family: calibri;
+	text-align: center;
+}
+.box10{
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	font-family: calibri;
+	height: 500px;
+	font-size: 14pt;
+}
+.box11{
+	display: flex;
+	justify-content: space-around;
+	font-family: calibri;
+	width: 250px;
+}
+.vacio{
+	display: flex;
+	height: 100px;
+}
+.co{
+	width: 36px;
+	height: 28px;
+}
+.ig{
+	width: 28px;
+	height: 28px;
+}
+.be{
+	width: 29px;
+	height: 29px;
+}
+h2{
+	font-family: calibri;
+}
+body{
+	background-color: #e4d5ee;
+}
+a:hover {
+  background-color: #fbd244;
+  color: black;
+	font-weight: bold;
+}
+a.active {
+  background-color: #c49ecf;
+}
+a {
+  float: left;
+  display: block;
+  color:  #530b52;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 50px;
+	height: 50px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.flecha {
+	padding:10px;
+	background:#fbd244;
+	color:#fff;
+	cursor:pointer;
+	bottom:20px;
+	right:20px;
+	width: 60px;
+	height: 60px;
+}
+a:hover.bot {
+  background-color: none;
+  color: black;
+}
+a.active.bot {
+  background-color: #c49ecf;
+}
+a.bot{
+  float: left;
+  display: block;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.parallax {
+  /* The image used */
+  background-image: url("../img/Bolt-color-entrega.jpg");
+
+  /* Set a specific height */
+  min-height: 900px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("../img/Bolt final playera.jpg");
+
+  /* Set a specific height */
+  min-height: 900px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+  .parallax2 {
+    background-attachment: scroll;
+  }
+}
+}
